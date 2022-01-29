@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Frontend Mentor Project | Single-price grid component</title>
+</head>
+<body>
+    <main class="center"> <!-- flexbox centered-->
+        <div class="component"> <!-- grid 2-col for desktop, 3 row for mobile-->
+            <section id="join">
+                <div id="join-content">
+                    <h1>Join our community</h1>
+                    <h2>30-day, hassle-free money back gurantee</h2>
+                    <p>Gain access to our full library of tutorials along with expert code reviews. Perfect for any developers who are serious about honing their skills.</p>
+                </div>
+            </section>
+
+            <section id="subscribe"> 
+                <div class="subscribe-content"> <!-- flex column? -->
+                    <h1>Monthly Subscription</h1>
+                    <div class="price-group"> <!-- flex -->
+                        <h2>$29</h2>
+                        <p>per month</p>
+                    </div>
+                    <p id="subscribe-description">Full access for less than $1 a day</p>
+                    <div class="subscribeButton center"> <!-- flex center-->
+                        <a class="btn" id="signUpBtn">Sign Up</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="why-us">
+                <div class="why-us-content">
+                    <h1>Why Us</h1>
+                    <ul id="why-us-list">
+                        <li>Tutorials by industry experts</li>
+                        <li>Peer & expert code reviews</li>
+                        <li>Coding exercises</li>
+                        <li>Access to our GitHub repos</li>
+                        <li>Community forum</li>
+                        <li>Flashcard decks</li>
+                        <li>New videos every week</li>
+                    </ul>
+                </div>
+            </section>
+            
+        </div>
+    </main>
+</body>
+</html>
